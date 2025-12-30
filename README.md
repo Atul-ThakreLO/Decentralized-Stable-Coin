@@ -15,7 +15,7 @@ A decentralized, algorithmic stablecoin system pegged to USD, built with Solidit
 - [Security](#security)
 - [License](#license)
 
-## 🎯 Overview
+## Overview
 
 The Decentralized Stablecoin (DSC) is an **exogenous, decentralized, anchored (pegged), crypto-collateralized** low-volatility coin designed to maintain a 1:1 peg with the US Dollar.
 
@@ -33,7 +33,7 @@ The Decentralized Stablecoin (DSC) is an **exogenous, decentralized, anchored (p
    - Supported collateral: **wETH** and **wBTC**
    - Multi-collateral system for diversification
 
-## ✨ Key Features
+## Key Features
 
 - **Over-Collateralized**: Users must maintain 200% collateralization ratio
 - **Liquidation Mechanism**: Protects protocol solvency through liquidations
@@ -77,7 +77,7 @@ The Decentralized Stablecoin (DSC) is an **exogenous, decentralized, anchored (p
 4. **Liquidation**: If health factor < 1, position can be liquidated by anyone
 5. **Incentives**: Liquidators receive 10% bonus for maintaining protocol health
 
-## 📜 Smart Contracts
+## Smart Contracts
 
 ### Core Contracts
 
@@ -125,7 +125,7 @@ The Decentralized Stablecoin (DSC) is an **exogenous, decentralized, anchored (p
 - `getAccountCollateralValue()` - Get total collateral value in USD
 - `getTokenAmountFromUSD()` - Convert USD amount to token amount
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -153,7 +153,7 @@ forge install
 forge build
 ```
 
-## 💻 Usage
+## Usage
 
 ### Build
 
@@ -207,7 +207,7 @@ Check test coverage:
 forge coverage
 ```
 
-## 🧪 Testing
+## Testing
 
 The project includes comprehensive test suites:
 
@@ -238,7 +238,7 @@ Run invariant tests:
 forge test --match-test invariant
 ```
 
-## 🚢 Deployment
+## Deployment
 
 ### Local Deployment (Anvil)
 
@@ -272,7 +272,7 @@ PRIVATE_KEY=your_private_key
 ETHERSCAN_API_KEY=your_etherscan_api_key
 ```
 
-## 🔒 Security
+## Security
 
 ### Security Features
 
@@ -293,7 +293,7 @@ ETHERSCAN_API_KEY=your_etherscan_api_key
 
 ⚠️ This project is for educational purposes. It has not been audited. Do not use in production without a professional security audit.
 
-## 📚 Resources
+## Resources
 
 - [Foundry Book](https://book.getfoundry.sh/)
 - [Chainlink Price Feeds](https://docs.chain.link/data-feeds/price-feeds)
@@ -307,7 +307,7 @@ ETHERSCAN_API_KEY=your_etherscan_api_key
 - **OpenZeppelin** - Secure contract libraries
 - **Chainlink** - Decentralized oracle network
 
-## 👨‍💻 Author
+## Author
 
 **Atul Thakre**
 
@@ -315,7 +315,7 @@ ETHERSCAN_API_KEY=your_etherscan_api_key
 
 This project is licensed under the MIT License.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Foundry team for the excellent development toolkit
 - OpenZeppelin for secure contract implementations
