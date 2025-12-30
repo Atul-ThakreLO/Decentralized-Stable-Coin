@@ -311,7 +311,7 @@ ETHERSCAN_API_KEY=your_etherscan_api_key
 
 **Atul Thakre**
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
